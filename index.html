@@ -1,0 +1,958 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Rivo :)</title>
+    <link rel="icon" type="image/png" href="images/app-logo.png" />
+    <link rel="stylesheet" href="styles/app.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <span class="nav__logo--span">Rivo</span>
+          <div class="nav__toggle-icon">
+            <div class="nav__toggle-line"></div>
+          </div>
+
+          <div class="menu nav__right">
+            <ul class="nav-ul">
+              <li class="nav-ul__items"><a href="#">Home</a></li>
+              <li class="nav-ul__items"><a href="#">Shop</a></li>
+              <li class="nav-ul__items"><a href="#">Features</a></li>
+              <li class="nav-ul__items"><a href="#">Contact</a></li>
+              <li class="nav-ul__items nav-ul__items--Cart">
+                <a href="#">Cart</a>
+              </li>
+            </ul>
+
+            <div class="nav__logo-svg">
+              <a class="nav__logo--link" href="#">
+                <svg
+                  class="nav__logo--svg"
+                  width="30"
+                  height="30"
+                  viewBox="0 0 30 30"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g id="fi-rr-shopping-bag-add" clip-path="url(#clip0_1_267)">
+                    <path
+                      id="Vector"
+                      d="M26.25 7.5H22.5C22.5 5.51088 21.7098 3.60322 20.3033 2.1967C18.8968 0.790176 16.9891 0 15 0C13.0109 0 11.1032 0.790176 9.6967 2.1967C8.29018 3.60322 7.5 5.51088 7.5 7.5H3.75C2.75544 7.5 1.80161 7.89509 1.09835 8.59835C0.395088 9.30161 0 10.2554 0 11.25L0 23.75C0.00198482 25.407 0.661102 26.9956 1.83277 28.1672C3.00445 29.3389 4.59301 29.998 6.25 30H17.5C17.8315 30 18.1495 29.8683 18.3839 29.6339C18.6183 29.3995 18.75 29.0815 18.75 28.75C18.75 28.4185 18.6183 28.1005 18.3839 27.8661C18.1495 27.6317 17.8315 27.5 17.5 27.5H6.25C5.25544 27.5 4.30161 27.1049 3.59835 26.4017C2.89509 25.6984 2.5 24.7446 2.5 23.75V11.25C2.5 10.9185 2.6317 10.6005 2.86612 10.3661C3.10054 10.1317 3.41848 10 3.75 10H7.5V12.5C7.5 12.8315 7.6317 13.1495 7.86612 13.3839C8.10054 13.6183 8.41848 13.75 8.75 13.75C9.08152 13.75 9.39946 13.6183 9.63388 13.3839C9.8683 13.1495 10 12.8315 10 12.5V10H20V12.5C20 12.8315 20.1317 13.1495 20.3661 13.3839C20.6005 13.6183 20.9185 13.75 21.25 13.75C21.5815 13.75 21.8995 13.6183 22.1339 13.3839C22.3683 13.1495 22.5 12.8315 22.5 12.5V10H26.25C26.5815 10 26.8995 10.1317 27.1339 10.3661C27.3683 10.6005 27.5 10.9185 27.5 11.25V17.5C27.5 17.8315 27.6317 18.1495 27.8661 18.3839C28.1005 18.6183 28.4185 18.75 28.75 18.75C29.0815 18.75 29.3995 18.6183 29.6339 18.3839C29.8683 18.1495 30 17.8315 30 17.5V11.25C30 10.2554 29.6049 9.30161 28.9017 8.59835C28.1984 7.89509 27.2446 7.5 26.25 7.5ZM10 7.5C10 6.17392 10.5268 4.90215 11.4645 3.96447C12.4021 3.02678 13.6739 2.5 15 2.5C16.3261 2.5 17.5979 3.02678 18.5355 3.96447C19.4732 4.90215 20 6.17392 20 7.5H10Z"
+                      fill="#224F34"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_1_267">
+                      <rect width="30" height="30" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </a>
+              <div class="svg__activ"></div>
+              
+              <div class="nav__logo-svg--box">
+                <div class="box-shap__nav"></div>
+                <div class="box-shap__nav--price"></div>
+              </div>
+            </div>
+            <a href="#" class="nav__login--a">Login</a>
+          </div>
+        </nav>
+
+        <div class="header__weraper">
+          <div class="header__left">
+            <h1 class="header__title">Discover and Find Your Own Fashion!</h1>
+            <p class="header__caption">
+              Explore our curated collection of stylish clothing and accessories
+              tailored to your unique taste.
+            </p>
+            <a href="#" class="header__btn app-btn">Explore Now</a>
+          </div>
+          <div class="header__right">
+            <img
+              class="header__img"
+              src="images/pexels-dima-valkov-6402847 2.jpg"
+              alt="header-img"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="proposal">
+        <div class="container">
+          <h2 class="proposal__title">Best selling</h2>
+          <p class="proposal__caption">
+            Get in on the trend with our curated selection of best-selling
+            styles.
+          </p>
+          <div class="proposal__items">
+            <div class="proposal__item">
+              <img
+                class="proposal__img"
+                src="images/pexels-dima-valkov-6211621 1.jpg"
+                alt="proposal-img"
+              />
+              <p class="proposal__item--title">Regular Fit Long Sleeve Top</p>
+              <div class="proposal__item--Price">
+                <div class="Price__legt">
+                  <span class="proposal__Price">$38.99</span>
+                </div>
+                <div class="Price__right">
+                  <span class="proposal__item--scores">5.0</span>
+                  <div class="proposal__item--star">
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g id="fi-ss-star" clip-path="url(#clip0_1_212)">
+                        <path
+                          id="Vector"
+                          d="M19.4672 23.3152L12.0002 17.8272L4.5332 23.3152L7.4002 14.4522L-0.0628052 8.99919H9.15119L12.0002 0.121185L14.8492 8.99919H24.0622L16.6002 14.4522L19.4672 23.3152Z"
+                          fill="#F5D426"
+                        />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_1_212">
+                          <rect width="24" height="24" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="proposal__item">
+              <img
+                class="proposal__img"
+                src="images/pexels-dima-valkov-6211616 (1) 2.jpg"
+                alt="proposal-img"
+              />
+              <p class="proposal__item--title">Black Crop Tailored Jacket</p>
+              <div class="proposal__item--Price">
+                <div class="Price__legt">
+                  <span class="proposal__Price">$62.99</span>
+                </div>
+                <div class="Price__right">
+                  <span class="proposal__item--scores">4.9</span>
+                  <div class="proposal__item--star">
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g id="fi-ss-star" clip-path="url(#clip0_1_212)">
+                        <path
+                          id="Vector"
+                          d="M19.4672 23.3152L12.0002 17.8272L4.5332 23.3152L7.4002 14.4522L-0.0628052 8.99919H9.15119L12.0002 0.121185L14.8492 8.99919H24.0622L16.6002 14.4522L19.4672 23.3152Z"
+                          fill="#F5D426"
+                        />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_1_212">
+                          <rect width="24" height="24" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="proposal__item">
+              <img
+                class="proposal__img"
+                src="images/pexels-dima-valkov-6503007 3.jpg"
+                alt="proposal-img"
+              />
+              <p class="proposal__item--title">Textured Sunset Shirt</p>
+              <div class="proposal__item--Price">
+                <div class="Price__legt">
+                  <span class="proposal__Price">$49.99</span>
+                </div>
+                <div class="Price__right">
+                  <span class="proposal__item--scores">5.0</span>
+                  <div class="proposal__item--star">
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g id="fi-ss-star" clip-path="url(#clip0_1_212)">
+                        <path
+                          id="Vector"
+                          d="M19.4672 23.3152L12.0002 17.8272L4.5332 23.3152L7.4002 14.4522L-0.0628052 8.99919H9.15119L12.0002 0.121185L14.8492 8.99919H24.0622L16.6002 14.4522L19.4672 23.3152Z"
+                          fill="#F5D426"
+                        />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_1_212">
+                          <rect width="24" height="24" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <a class="proposal__link app-btn" href="#"
+            >See all
+            <svg
+              class="proposal__link--svg"
+              width="24"
+              height="16"
+              viewBox="0 0 24 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                id="Line 2"
+                d="M23.7071 8.70711C24.0976 8.31658 24.0976 7.68342 23.7071 7.29289L17.3431 0.928932C16.9526 0.538408 16.3195 0.538408 15.9289 0.928932C15.5384 1.31946 15.5384 1.95262 15.9289 2.34315L21.5858 8L15.9289 13.6569C15.5384 14.0474 15.5384 14.6805 15.9289 15.0711C16.3195 15.4616 16.9526 15.4616 17.3431 15.0711L23.7071 8.70711ZM0 9L23 9V7L0 7L0 9Z"
+                fill="#224F34"
+              />
+            </svg>
+          </a>
+        </div>
+      </section>
+      <section class="products">
+        <div class="container">
+          <h2 class="products__title">Our products</h2>
+          <ul class="products__ul">
+            <li class="products__ul--items">Sale</li>
+            <li class="products__ul--items products__ul--activ">HOT</li>
+            <li class="products__ul--items">New Arrivals</li>
+            <li class="products__ul--items">Accessories</li>
+          </ul>
+          <div class="products__items">
+            <div class="products__item">
+              <img
+                class="products__img"
+                src="images/pexels-dima-valkov-6402848 1.jpg"
+                alt="proposal-img"
+              />
+              <p class="products__item--title">Spread Collar Shirt</p>
+              <div class="products__item--Price">
+                <div class="Price__legt">
+                  <span class="proposal__Price">$48.99</span>
+                </div>
+                <div class="Price__right">
+                  <span class="proposal__item--scores">5.0</span>
+                  <div class="proposal__item--star">
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g id="fi-ss-star" clip-path="url(#clip0_1_212)">
+                        <path
+                          id="Vector"
+                          d="M19.4672 23.3152L12.0002 17.8272L4.5332 23.3152L7.4002 14.4522L-0.0628052 8.99919H9.15119L12.0002 0.121185L14.8492 8.99919H24.0622L16.6002 14.4522L19.4672 23.3152Z"
+                          fill="#F5D426"
+                        />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_1_212">
+                          <rect width="24" height="24" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="products__item">
+              <img
+                class="products__img"
+                src="images/pexels-heitor-verdi-7665789 2.jpg"
+                alt="proposal-img"
+              />
+              <p class="products__item--title">White Solid Formal Shirt</p>
+              <div class="products__item--Price">
+                <div class="Price__legt">
+                  <span class="proposal__Price">$39.00</span>
+                </div>
+                <div class="Price__right">
+                  <span class="proposal__item--scores">4.9</span>
+                  <div class="proposal__item--star">
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g id="fi-ss-star" clip-path="url(#clip0_1_212)">
+                        <path
+                          id="Vector"
+                          d="M19.4672 23.3152L12.0002 17.8272L4.5332 23.3152L7.4002 14.4522L-0.0628052 8.99919H9.15119L12.0002 0.121185L14.8492 8.99919H24.0622L16.6002 14.4522L19.4672 23.3152Z"
+                          fill="#F5D426"
+                        />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_1_212">
+                          <rect width="24" height="24" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="products__item">
+              <img
+                class="products__img"
+                src="images/pexels-dima-valkov-6511777 1.jpg"
+                alt="proposal-img"
+              />
+              <p class="products__item--title">Shine On Me Blouse</p>
+              <div class="products__item--Price">
+                <div class="Price__legt">
+                  <span class="proposal__Price">$42.99</span>
+                </div>
+                <div class="Price__right">
+                  <span class="proposal__item--scores">4.7</span>
+                  <div class="proposal__item--star">
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g id="fi-ss-star" clip-path="url(#clip0_1_212)">
+                        <path
+                          id="Vector"
+                          d="M19.4672 23.3152L12.0002 17.8272L4.5332 23.3152L7.4002 14.4522L-0.0628052 8.99919H9.15119L12.0002 0.121185L14.8492 8.99919H24.0622L16.6002 14.4522L19.4672 23.3152Z"
+                          fill="#F5D426"
+                        />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_1_212">
+                          <rect width="24" height="24" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="products__item">
+              <img
+                class="products__img"
+                src="images/pexels-monstera-6311613 (1) 1.jpg"
+                alt="proposal-img"
+              />
+              <p class="products__item--title">Gray Padded Jacket</p>
+              <div class="products__item--Price">
+                <div class="Price__legt">
+                  <span class="proposal__Price">$32.99</span>
+                </div>
+                <div class="Price__right">
+                  <span class="proposal__item--scores">4.7</span>
+                  <div class="proposal__item--star">
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g id="fi-ss-star" clip-path="url(#clip0_1_212)">
+                        <path
+                          id="Vector"
+                          d="M19.4672 23.3152L12.0002 17.8272L4.5332 23.3152L7.4002 14.4522L-0.0628052 8.99919H9.15119L12.0002 0.121185L14.8492 8.99919H24.0622L16.6002 14.4522L19.4672 23.3152Z"
+                          fill="#F5D426"
+                        />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_1_212">
+                          <rect width="24" height="24" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="products__item">
+              <img
+                class="products__img"
+                src="images/pexels-dima-valkov-6211614 1.jpg"
+                alt="proposal-img"
+              />
+              <p class="products__item--title">Printed Loose T-shirt</p>
+              <div class="products__item--Price">
+                <div class="Price__legt">
+                  <span class="proposal__Price">$39.99</span>
+                </div>
+                <div class="Price__right">
+                  <span class="proposal__item--scores">5.0</span>
+                  <div class="proposal__item--star">
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g id="fi-ss-star" clip-path="url(#clip0_1_212)">
+                        <path
+                          id="Vector"
+                          d="M19.4672 23.3152L12.0002 17.8272L4.5332 23.3152L7.4002 14.4522L-0.0628052 8.99919H9.15119L12.0002 0.121185L14.8492 8.99919H24.0622L16.6002 14.4522L19.4672 23.3152Z"
+                          fill="#F5D426"
+                        />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_1_212">
+                          <rect width="24" height="24" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="products__item">
+              <img
+                class="products__img"
+                src="images/pexels-dima-valkov-6402846 1.jpg"
+                alt="proposal-img"
+              />
+              <p class="products__item--title">Summer Wind Crop Shirt</p>
+              <div class="products__item--Price">
+                <div class="Price__legt">
+                  <span class="proposal__Price">$39.95</span>
+                </div>
+                <div class="Price__right">
+                  <span class="proposal__item--scores">4.7</span>
+                  <div class="proposal__item--star">
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g id="fi-ss-star" clip-path="url(#clip0_1_212)">
+                        <path
+                          id="Vector"
+                          d="M19.4672 23.3152L12.0002 17.8272L4.5332 23.3152L7.4002 14.4522L-0.0628052 8.99919H9.15119L12.0002 0.121185L14.8492 8.99919H24.0622L16.6002 14.4522L19.4672 23.3152Z"
+                          fill="#F5D426"
+                        />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_1_212">
+                          <rect width="24" height="24" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="products__item">
+              <img
+                class="products__img"
+                src="images/pexels-dima-valkov-6211601 1.jpg"
+                alt="proposal-img"
+              />
+              <p class="products__item--title">Tailored Jacket</p>
+              <div class="products__item--Price">
+                <div class="Price__legt">
+                  <span class="proposal__Price">$46.00</span>
+                </div>
+                <div class="Price__right">
+                  <span class="proposal__item--scores">4.9</span>
+                  <div class="proposal__item--star">
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g id="fi-ss-star" clip-path="url(#clip0_1_212)">
+                        <path
+                          id="Vector"
+                          d="M19.4672 23.3152L12.0002 17.8272L4.5332 23.3152L7.4002 14.4522L-0.0628052 8.99919H9.15119L12.0002 0.121185L14.8492 8.99919H24.0622L16.6002 14.4522L19.4672 23.3152Z"
+                          fill="#F5D426"
+                        />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_1_212">
+                          <rect width="24" height="24" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="products__item">
+              <img
+                class="products__img"
+                src="images/pexels-monstera-6311612 3.jpg"
+                alt="proposal-img"
+              />
+              <p class="products__item--title">Neck T-shirt</p>
+              <div class="products__item--Price">
+                <div class="Price__legt">
+                  <span class="proposal__Price">$36.00</span>
+                </div>
+                <div class="Price__right">
+                  <span class="proposal__item--scores">5.0</span>
+                  <div class="proposal__item--star">
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g id="fi-ss-star" clip-path="url(#clip0_1_212)">
+                        <path
+                          id="Vector"
+                          d="M19.4672 23.3152L12.0002 17.8272L4.5332 23.3152L7.4002 14.4522L-0.0628052 8.99919H9.15119L12.0002 0.121185L14.8492 8.99919H24.0622L16.6002 14.4522L19.4672 23.3152Z"
+                          fill="#F5D426"
+                        />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_1_212">
+                          <rect width="24" height="24" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="exclusive">
+        <div class="container">
+          <div class="exclusive__weraper">
+            <div class="exclusive__left">
+              <img
+                src="images/excited-white-girl-bright-stylish-glasses-posing-pink-dreamy-curly-woman-playing-with-her-ginger-hair-laughing 1 (1).png"
+                alt="exclusive"
+                class="exclusive__left--img"
+              />
+              <div>
+                <svg
+                  class="exclusive__left--shaper"
+                  width="156"
+                  height="110"
+                  viewBox="0 0 156 110"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g id="Group 37">
+                    <circle id="Ellipse 3" cx="4" cy="4" r="4" fill="#328B56" />
+                    <circle
+                      id="Ellipse 8"
+                      cx="4"
+                      cy="38"
+                      r="4"
+                      fill="#328B56"
+                    />
+                    <circle
+                      id="Ellipse 13"
+                      cx="4"
+                      cy="72"
+                      r="4"
+                      fill="#328B56"
+                    />
+                    <circle
+                      id="Ellipse 18"
+                      cx="4"
+                      cy="106"
+                      r="4"
+                      fill="#328B56"
+                    />
+                    <circle
+                      id="Ellipse 4"
+                      cx="41"
+                      cy="4"
+                      r="4"
+                      fill="#328B56"
+                    />
+                    <circle
+                      id="Ellipse 9"
+                      cx="41"
+                      cy="38"
+                      r="4"
+                      fill="#328B56"
+                    />
+                    <circle
+                      id="Ellipse 14"
+                      cx="41"
+                      cy="72"
+                      r="4"
+                      fill="#328B56"
+                    />
+                    <circle
+                      id="Ellipse 19"
+                      cx="41"
+                      cy="106"
+                      r="4"
+                      fill="#328B56"
+                    />
+                    <circle
+                      id="Ellipse 5"
+                      cx="78"
+                      cy="4"
+                      r="4"
+                      fill="#328B56"
+                    />
+                    <circle
+                      id="Ellipse 10"
+                      cx="78"
+                      cy="38"
+                      r="4"
+                      fill="#328B56"
+                    />
+                    <circle
+                      id="Ellipse 15"
+                      cx="78"
+                      cy="72"
+                      r="4"
+                      fill="#328B56"
+                    />
+                    <circle
+                      id="Ellipse 20"
+                      cx="78"
+                      cy="106"
+                      r="4"
+                      fill="#328B56"
+                    />
+                    <circle
+                      id="Ellipse 6"
+                      cx="115"
+                      cy="4"
+                      r="4"
+                      fill="#328B56"
+                    />
+                    <circle
+                      id="Ellipse 11"
+                      cx="115"
+                      cy="38"
+                      r="4"
+                      fill="#328B56"
+                    />
+                    <circle
+                      id="Ellipse 16"
+                      cx="115"
+                      cy="72"
+                      r="4"
+                      fill="#328B56"
+                    />
+                    <circle
+                      id="Ellipse 21"
+                      cx="115"
+                      cy="106"
+                      r="4"
+                      fill="#328B56"
+                    />
+                    <circle
+                      id="Ellipse 7"
+                      cx="152"
+                      cy="4"
+                      r="4"
+                      fill="#328B56"
+                    />
+                    <circle
+                      id="Ellipse 12"
+                      cx="152"
+                      cy="38"
+                      r="4"
+                      fill="#328B56"
+                    />
+                    <circle
+                      id="Ellipse 17"
+                      cx="152"
+                      cy="72"
+                      r="4"
+                      fill="#328B56"
+                    />
+                    <circle
+                      id="Ellipse 22"
+                      cx="152"
+                      cy="106"
+                      r="4"
+                      fill="#328B56"
+                    />
+                  </g>
+                </svg>
+              </div>
+            </div>
+            <div class="exclusive__right">
+              <h3 class="exclusive__right--title">Exclusive offer</h3>
+              <p class="exclusive__right--caption">
+                Unlock the ultimate style upgrade with our exclusive offer Enjoy
+                savings of up to 40% off on our latest New Arrivals
+              </p>
+              <div class="exclusive__right--time">
+                <div class="exclusive__right-box">
+                  <p id="hour" class="hour exclusive__time-p"></p>
+                  <span class="exclusive__time-s">Hours</span>
+                </div>
+                <div class="exclusive__right-box">
+                  <p id="minutes" class="minutes exclusive__time-p"></p>
+                  <span class="exclusive__time-s">Min</span>
+                </div>
+                <div class="exclusive__right-box">
+                  <p id="second" class="second exclusive__time-p"></p>
+                  <span class="exclusive__time-s">Sec</span>
+                </div>
+              </div>
+              <a href="#" class="exclusive__right--a app-btn">BUY NOW</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="clothes">
+        <div class="container">
+          <h2 class="clothes__title">Designer Clothes For You</h2>
+          <p class="clothes__caption">
+            Immerse yourself in the world of luxury fashion with our
+            meticulously crafted designer clothes!
+          </p>
+          <div class="clothes__items">
+            <div class="clothes__item">
+              <img
+                src="images/elegant-woman-straw-hat-isolated 2.jpg"
+                alt="clothes"
+                class="clothes__img"
+              />
+              <p class="clothes__item--title">Accessories</p>
+              <p class="clothes__item--caption">
+                Complete your ensemble with designer accessories such as
+                handbags, scarves, belts, and hats.
+              </p>
+            </div>
+            <div class="clothes__item">
+              <img
+                src="images/pexels-dima-valkov-6211617 1.jpg"
+                alt="clothes"
+                class="clothes__img"
+              />
+              <p class="clothes__item--title">Dresses</p>
+              <p class="clothes__item--caption">
+                Explore a stunning range of designer dresses, including evening
+                gowns and chic day dresses.
+              </p>
+            </div>
+            <div class="clothes__item">
+              <img
+                src="images/vknivfu sdkvbjieurg kjvn 1.jpg"
+                alt="clothes"
+                class="clothes__img"
+              />
+              <p class="clothes__item--title">Outerwear</p>
+              <p class="clothes__item--caption">
+                Browse luxurious designer coats, jackets, and blazers to stay
+                stylishly warm during colder seasons.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="feedback">
+        <div class="container">
+          <h2 class="feedback__title">Feedback Corner</h2>
+          <div class="feedback__weraper">
+            <div class="feedback__weraper--items">
+              <h4 class="feedback__items--up">“</h4>
+              <h3 class="feedback__items--title">Emily Wilson</h3>
+              <p class="feedback__items--caption">
+                The customer experience was exceptional from start to finish.
+                The website is user-friendly, the checkout process was smooth,
+                and the clothes I ordered fit perfectly. I'm beyond satisfied!
+              </p>
+            </div>
+            <div class="feedback__weraper--items feedback__items--active">
+              <h4 class="feedback__items--up">“</h4>
+              <h3 class="feedback__items--title">Sarah Thompson</h3>
+              <p class="feedback__items--caption">
+                I absolutely love the quality and style of the clothing I
+                purchased from this website. customer service was outstanding,
+                and I received my order quickly. Highly recommended!
+              </p>
+            </div>
+            <div class="feedback__weraper--items">
+              <h4 class="feedback__items--up">“</h4>
+              <h3 class="feedback__items--title">Olivia Martinez</h3>
+              <p class="feedback__items--caption">
+                I had a great experience shopping on this website. The clothes I
+                bought are fashionable and comfortable. Highly satisfied!
+              </p>
+            </div>
+          </div>
+          <div class="feedback__btn">
+            <a href="#" class="feedback__link">
+              <svg
+                class="feedback__svg--right"
+                xmlns="http://www.w3.org/2000/svg"
+                height="24"
+                viewBox="0 -960 960 960"
+                width="24"
+              >
+                <path
+                  d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"
+                />
+              </svg>
+            </a>
+            <a href="#" class="feedback__link">
+              <svg
+                class="feedback__svg--left"
+                xmlns="http://www.w3.org/2000/svg"
+                height="24"
+                viewBox="0 -960 960 960"
+                width="24"
+              >
+                <path
+                  d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__weraper">
+          <div class="footer__social">
+            <h1 class="footer__social--logo"><a href="#">Rivo</a></h1>
+            <div class="footer__social--media">
+              <p class="footer__social--caption">Social Media</p>
+              <div class="footer__social--media">
+                <a href="#">
+                  <svg
+                    width="38"
+                    height="38"
+                    viewBox="0 0 38 38"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g id="Facebook">
+                      <g id="Group">
+                        <g id="Group_2">
+                          <path
+                            id="Vector"
+                            d="M6.83998 3.04004C4.75034 3.04004 3.03998 4.7504 3.03998 6.84004V31.16C3.03998 33.2497 4.75034 34.96 6.83998 34.96H19.6323C19.7144 34.9736 19.7981 34.9736 19.8802 34.96H24.1923C24.2744 34.9736 24.3581 34.9736 24.4402 34.96H31.16C33.2496 34.96 34.96 33.2497 34.96 31.16V6.84004C34.96 4.7504 33.2496 3.04004 31.16 3.04004H6.83998ZM6.83998 4.56004H31.16C32.428 4.56004 33.44 5.57199 33.44 6.84004V31.16C33.44 32.4281 32.428 33.44 31.16 33.44H25.08V22.8H27.9834L29.0477 17.48H25.08V15.96C25.08 15.5363 25.1203 15.5032 25.2626 15.4108C25.4048 15.3184 25.8444 15.2 26.6 15.2H28.88V10.9206L28.4465 10.7143C28.4465 10.7143 26.7008 9.88003 24.32 9.88003C22.61 9.88003 21.2052 10.5613 20.3062 11.685C19.4073 12.8087 19 14.3134 19 15.96V17.48H16.72V22.8H19V33.44H6.83998C5.57193 33.44 4.55998 32.4281 4.55998 31.16V6.84003C4.55998 5.57199 5.57193 4.56004 6.83998 4.56004ZM24.32 11.4C25.9001 11.4 26.8944 11.7485 27.36 11.9329V13.68H26.6C25.7254 13.68 25.0245 13.7524 24.4343 14.1357C23.8441 14.5191 23.56 15.2468 23.56 15.96V19H27.1922L26.7365 21.28H23.56V33.44H20.52V21.28H18.24V19H20.52V15.96C20.52 14.5667 20.8727 13.4113 21.4937 12.635C22.1148 11.8587 22.99 11.4 24.32 11.4Z"
+                            fill="#C2EFD4"
+                          />
+                        </g>
+                      </g>
+                    </g></svg
+                ></a>
+                <a href="#">
+                  <svg
+                    width="35"
+                    height="35"
+                    viewBox="0 0 35 35"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g id="Twitter " clip-path="url(#clip0_1_311)">
+                      <g id="Group">
+                        <g id="Group_2">
+                          <path
+                            id="Vector"
+                            d="M23.9531 3.82812C19.7668 3.82812 16.3625 7.23242 16.3625 11.4188C16.3625 11.6703 16.4254 11.9164 16.45 12.1625C11.2739 11.6676 6.69651 9.17383 3.58752 5.35938C3.4426 5.17617 3.21838 5.07774 2.98323 5.09414C2.7508 5.11055 2.54299 5.24453 2.42815 5.44688C1.77463 6.5707 1.40002 7.86407 1.40002 9.25313C1.40002 10.9348 2.00159 12.4742 2.93127 13.7375C2.7508 13.6582 2.55393 13.6145 2.3844 13.5188C2.16838 13.4039 1.90861 13.4094 1.69807 13.5352C1.48752 13.6609 1.359 13.8879 1.35627 14.1313V14.2188C1.35627 16.7973 2.69065 19.0367 4.6594 20.4094C4.63752 20.4066 4.61565 20.4148 4.59377 20.4094C4.35315 20.3684 4.10978 20.4531 3.94846 20.6363C3.78713 20.8195 3.73518 21.0738 3.80628 21.3063C4.58831 23.7371 6.5844 25.5938 9.05628 26.2719C7.08753 27.4422 4.80432 28.1313 2.34065 28.1313C1.80745 28.1313 1.29612 28.1039 0.787528 28.0438C0.459403 28 0.144949 28.1914 0.0355735 28.5031C-0.0765385 28.8148 0.0465145 29.1621 0.328153 29.3344C3.48636 31.3605 7.23519 32.55 11.2657 32.55C17.7981 32.55 22.9223 29.8211 26.3594 25.9219C29.7965 22.0227 31.5875 16.9586 31.5875 12.2281C31.5875 12.0285 31.5711 11.8344 31.5657 11.6375C32.8481 10.6559 33.9938 9.50469 34.8907 8.15938C35.0684 7.89961 35.0493 7.55234 34.8442 7.31172C34.6418 7.07109 34.3 6.99726 34.0157 7.13125C33.6547 7.29258 33.2336 7.30899 32.8563 7.4375C33.3539 6.77305 33.7805 6.05664 34.0375 5.25C34.125 4.97383 34.0293 4.67032 33.8024 4.48984C33.5754 4.31211 33.2582 4.29023 33.0094 4.44063C31.8145 5.14883 30.491 5.64649 29.0938 5.95C27.7375 4.68125 25.952 3.82812 23.9531 3.82812ZM23.9531 5.22813C25.7387 5.22813 27.352 5.99101 28.4813 7.19688C28.6508 7.37188 28.8996 7.4457 29.1375 7.39375C30.0508 7.21328 30.9176 6.94805 31.7625 6.60625C31.2758 7.2625 30.6742 7.82305 29.9688 8.24688C29.6489 8.40274 29.4985 8.77187 29.616 9.1082C29.7309 9.4418 30.0809 9.63594 30.4282 9.55938C31.1282 9.47461 31.7516 9.19024 32.4188 9.0125C31.8199 9.66055 31.1637 10.2457 30.45 10.7625C30.2559 10.9047 30.1492 11.1344 30.1657 11.375C30.1766 11.6594 30.1875 11.941 30.1875 12.2281C30.1875 16.6031 28.5086 21.3527 25.3094 24.9813C22.1102 28.6098 17.4125 31.15 11.2656 31.15C8.47385 31.15 5.83791 30.532 3.45627 29.4438C6.4094 29.2168 9.13284 28.1723 11.3313 26.4469C11.561 26.2637 11.6512 25.9574 11.5582 25.6785C11.4653 25.3996 11.2082 25.2082 10.9156 25.2C8.60784 25.159 6.67463 23.8164 5.64377 21.9188C5.68205 21.9188 5.71486 21.9188 5.75315 21.9188C6.44494 21.9188 7.12853 21.8313 7.76565 21.6563C8.0719 21.566 8.28244 21.2816 8.27151 20.9617C8.26057 20.6418 8.03362 20.3684 7.7219 20.3C5.23088 19.7969 3.3633 17.768 2.93127 15.2469C3.63674 15.4902 4.35861 15.6816 5.14065 15.7063C5.46057 15.7254 5.75041 15.5258 5.84885 15.2223C5.94729 14.9188 5.82698 14.5852 5.55627 14.4156C3.89377 13.3027 2.80002 11.4078 2.80002 9.25313C2.80002 8.45469 3.00784 7.72188 3.28127 7.02188C6.78127 10.8637 11.6813 13.4148 17.2156 13.6938C17.4344 13.7047 17.6477 13.6145 17.7899 13.4477C17.9321 13.2781 17.9867 13.0539 17.9375 12.8406C17.8309 12.3867 17.7625 11.9055 17.7625 11.4188C17.7625 7.98984 20.5242 5.22813 23.9531 5.22813Z"
+                            fill="#C2EFD4"
+                          />
+                        </g>
+                      </g>
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_1_311">
+                        <rect width="35" height="35" fill="white" />
+                      </clipPath>
+                    </defs></svg
+                ></a>
+                <a href="#">
+                  <svg
+                    width="38"
+                    height="38"
+                    viewBox="0 0 38 38"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g id="Instagram">
+                      <g id="Group">
+                        <g id="Group_2">
+                          <path
+                            id="Vector"
+                            d="M12.16 2.28003C6.71271 2.28003 2.28003 6.71271 2.28003 12.16V25.84C2.28003 31.2873 6.71271 35.72 12.16 35.72H25.84C31.2873 35.72 35.72 31.2873 35.72 25.84V12.16C35.72 6.71271 31.2873 2.28003 25.84 2.28003H12.16ZM12.16 3.80003H25.84C30.4658 3.80003 34.2 7.5343 34.2 12.16V25.84C34.2 30.4658 30.4658 34.2 25.84 34.2H12.16C7.5343 34.2 3.80003 30.4658 3.80003 25.84V12.16C3.80003 7.5343 7.5343 3.80003 12.16 3.80003ZM28.12 8.36003C27.2806 8.36003 26.6 9.04056 26.6 9.88003C26.6 10.7195 27.2806 11.4 28.12 11.4C28.9595 11.4 29.64 10.7195 29.64 9.88003C29.64 9.04056 28.9595 8.36003 28.12 8.36003ZM19 10.64C14.3919 10.64 10.64 14.3919 10.64 19C10.64 23.6081 14.3919 27.36 19 27.36C23.6081 27.36 27.36 23.6081 27.36 19C27.36 14.3919 23.6081 10.64 19 10.64ZM19 12.16C22.7867 12.16 25.84 15.2134 25.84 19C25.84 22.7867 22.7867 25.84 19 25.84C15.2134 25.84 12.16 22.7867 12.16 19C12.16 15.2134 15.2134 12.16 19 12.16Z"
+                            fill="#C2EFD4"
+                          />
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="footer__shop">
+            <p class="footer__p">SHOP</p>
+            <ul class="footer__ul">
+              <li class="footer__li"><a href="#">Products</a></li>
+              <li class="footer__li"><a href="#">Overview</a></li>
+              <li class="footer__li"><a href="#">Pricing</a></li>
+              <li class="footer__li"><a href="#">Releases</a></li>
+            </ul>
+          </div>
+          <div class="footer__company">
+            <p class="footer__p">Company</p>
+            <ul class="footer__ul">
+              <li class="footer__li"><a href="#">About us</a></li>
+              <li class="footer__li"><a href="#">Contact</a></li>
+              <li class="footer__li"><a href="#">News</a></li>
+              <li class="footer__li"><a href="#">Support</a></li>
+            </ul>
+          </div>
+          <div class="footer__email">
+            <p class="footer__p">Stay up to date</p>
+
+            <form class="newsletter__email" action="">
+              <input
+                type="text"
+                class="newsletter__txt"
+                placeholder="Email address"
+              />
+              <button type="submit" class="newsletter__btn">submit</button>
+            </form>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <span class="footer__bottom--span"></span>
+          <p class="footer__bottom-p"><a href="#">Terms</a></p>
+          <p class="footer__bottom-p"><a href="#">Privacy</a></p>
+          <p class="footer__bottom-p"><a href="#">Cookies</a></p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="scripts/app.js"></script>
+  </body>
+</html>
